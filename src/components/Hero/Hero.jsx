@@ -1,5 +1,4 @@
 import React from 'react'
-import heroImg from "../../assets/bg.png"
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion"
 const Hero = () => {
