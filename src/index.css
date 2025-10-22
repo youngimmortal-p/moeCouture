@@ -1,30 +1,6 @@
-@font-face {
-  font-family: "Aller";
-  src: url("./assets/fonts/AllerDisplay.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-
+html, body{
+  overflow-x: hidden
 }
-
-@font-face {
-  font-family: "Euro";
-  src: url("./assets/fonts/EuroStyle\ Normal.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-
-}
-
-@font-face {
-  font-family: "Humanist";
-  src: url("./assets/fonts/Humanist521BT.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-
-}
-
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -37,6 +13,10 @@
   --color-gold: #C6A664;
   --color-soft: #FDF9F3;
   --color-grayish: #6B6B6B;
+
+  --font-aller: "Aller", sans-serif;
+  --font-euro: "Euro", sans-serif;
+  --font-humanist: "Humanist", sans-serif;
 }
 
 @theme inline {
