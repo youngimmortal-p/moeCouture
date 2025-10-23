@@ -1,12 +1,21 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-
+import review1 from "@/assets/Customer reviews/review1.jpg";
+import review2 from "@/assets/Customer reviews/review2.jpg";
+import review3 from "@/assets/Customer reviews/review3.jpg";
+import review4 from "@/assets/Customer reviews/review4.jpg";
+import review5 from "@/assets/Customer reviews/review5.jpg";
+import review6 from "@/assets/Customer reviews/review6.jpg";
+import review7 from "@/assets/Customer reviews/review7.jpg";
+import review8 from "@/assets/Customer reviews/review8.jpg";
+import review9 from "@/assets/Customer reviews/review9.jpg";
+import review10 from "@/assets/Customer reviews/review-10.jpg";
 
 
 const Review = () => {
-  const reviews = ["/public/Customer reviews/review1.jpg", "/public/Customer reviews/review2.jpg", "/public/Customer reviews/review3.jpg", "/public/Customer reviews/review4.jpg", "/public/Customer reviews/review5.jpg", "/public/Customer reviews/review6.jpg", "/public/Customer reviews/review7.jpg", "/public/Customer reviews/review8.jpg", "/public/Customer reviews/review9.jpg",
-    "/public/Customer reviews/review-10.jpg"].map(src => ({
+  const reviews = [review1, review2, review3, review4, review5, review6, review7, review8, review9,
+    review10].map(src => ({
        src,
        text: "Testimonial"
     }))

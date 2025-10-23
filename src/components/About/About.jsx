@@ -1,11 +1,12 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import aboutImg from "@/assets/aboutimg.jpg"
 const About = () => {
   return (
     <section id='about' className='bg-soft py-20 px-6 md:px-16'>
       <div className='max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center'>
       <motion.img
-      src='/aboutimg.jpg'
+      src={aboutImg}
           alt="About Moe Couture"
           className="rounded-lg shadow-md object-cover w-full"
           initial={{ opacity: 0, x: -50 }}

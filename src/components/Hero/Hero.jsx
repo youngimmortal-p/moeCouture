@@ -1,11 +1,11 @@
 import React from 'react'
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion"
-
+import heroImg from "@/assets/bg.png"
 
 const Hero = () => {
   return (
-    <section className='h-screen flex items-center justify-center bg-cover relative' style={{backgroundImage: 'url("/bg.png")'}}>
+    <section className='h-screen flex items-center justify-center bg-cover relative' style={{backgroundImage: `url(${heroImg})`}}>
         <div className='absolute inset-0 bg-black/10'></div>
 
         <motion.div
