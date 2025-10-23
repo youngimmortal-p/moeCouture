@@ -6,26 +6,28 @@ import Navbar from '../../components/Navbar/Navbar';
 const Gallery = () => {
     const [category, setCategory] = useState("All")
 
-    const shirts = ["/public/SHIRTS/Shirt1.jpg",
-      "/public/SHIRTS/Shirt2.jpg",
-      "/public/SHIRTS/Shirt3.jpg",
-      "/public/SHIRTS/Shirt4.jpg",
-      "/public/SHIRTS/Shirt6.jpg",
-     "/public/SHIRTS/Shirt8.jpg",
-      "/public/SHIRTS/Shirt10.jpg",
-      "/public/SHIRTS/shrtvid1.mp4",
-      "/public/SHIRTS/ShirtVid2.mp4" ].map(src => ({
+    const shirts = ["/SHIRTS/Shirt1.jpg",
+      "/SHIRTS/Shirt2.jpg",
+      "/SHIRTS/Shirt3.jpg",
+      "/SHIRTS/Shirt4.jpg",
+      "/SHIRTS/Shirt6.jpg",
+     "/SHIRTS/Shirt8.jpg",
+      "/SHIRTS/Shirt10.jpg",
+      "/SHIRTS/shrtvid1.mp4",
+      "/SHIRTS/ShirtVid2.mp4" ].map(src => ({
         src,
         type: "Shirt",
      }))
 
-     const natives = ["", native2, native3, native4, native5, native6, native7, native8, native8, native9, native10, native11, native12, native13, native14, native15, native16, native17, native18, native19, native20, native21, native22, native23, native24, native25, native26, native27, native28, native29, native30, native31, native32, native33, native34, native35, native36, native37, native38, native39, native40, native41, native42, native43, native44, native45, native46, native47,
-       native48].map(src => ({
+     const natives = ["/NATIVES/native1.jpg", 
+     "/NATIVES/native2.jpg", "/NATIVES/native3.jpg", "/NATIVES/native4.jpg", "/NATIVES/native5.jpg", "/NATIVES/native6.jpg", "/NATIVES/native7.jpg", "/NATIVES/native8.jpg", "/NATIVES/native9.jpg", "/NATIVES/native10.jpg", "/NATIVES/native11.jpg", "/NATIVES/native12.jpg","/NATIVES/native13.jpg", "/NATIVES/native14.jpg", "/NATIVES/native15.jpg",'/NATIVES/native16.jpg', "/NATIVES/native17.jpg", "/NATIVES/native18.jpg", "/NATIVES/native19.jpg", "/NATIVES/native20.jpg", "/NATIVES/native21.jpg", "/NATIVES/native23.jpg", "/NATIVES/native24.jpg", "/NATIVES/native25.jpg", "/NATIVES/native26.jpg", "/NATIVES/native27.jpg", "/NATIVES/native28.jpg", "/NATIVES/native29.jpg", "/NATIVES/native30.jpg", "/NATIVES/native31.jpg", "/NATIVES/native33.jpg", "/NATIVES/native34.jpg", "/NATIVES/nativevid1.mp4", "/NATIVES/nativevid2.mp4", "/NATIVES/nativevid3.mp4", "/NATIVES/nativevid4.mp4", "/NATIVES/nativevid5.mp4", "/NATIVES/nativevid6.mp4", "/NATIVES/nativevid7.mp4", "/NATIVES/nativevid8.mp4", "/NATIVES/nativevid9.mp4", "/NATIVES/nativevid10.mp4", "/NATIVES/nativevid11.mp4", "/NATIVES/nativevid12.mp4","/NATIVES/nativevid13.mp4", "/NATIVES/nativevid14.mp4", "/NATIVES/nativevid15.mp4", 
+     "/NATIVES/nativevid16.mp4",
+  ].map(src => ({
         src,
         type: "Native"
        }))
 
-       const caps = [cap1, cap2, cap3, cap4, cap5, cap6].map(src => ({
+       const caps = ["/CAPS/cap1.jpg", "/CAPS/cap2.jpg", "/CAPS/cap3.jpg", "/CAPS/cap4.jpg", "/CAPS/cap5.jpg", "/CAPS/cap6.jpg"].map(src => ({
         src,
         type: "Native Caps"
        }))

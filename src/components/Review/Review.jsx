@@ -3,15 +3,13 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 
 
-import { useRef } from 'react';
 
 const Review = () => {
-    const caurouselRef = useRef()
-    const reviews = [review1, review2, review3, review4, review5, review6, review7, review8, review9,
-         review10].map(src => ({
-            src,
-            text: "Testimonial"
-         }))
+  const reviews = ["/public/Customer reviews/review1.jpg", "/public/Customer reviews/review2.jpg", "/public/Customer reviews/review3.jpg", "/public/Customer reviews/review4.jpg", "/public/Customer reviews/review5.jpg", "/public/Customer reviews/review6.jpg", "/public/Customer reviews/review7.jpg", "/public/Customer reviews/review8.jpg", "/public/Customer reviews/review9.jpg",
+    "/public/Customer reviews/review-10.jpg"].map(src => ({
+       src,
+       text: "Testimonial"
+    }))
   return (
     <section id='reviews' className='bg-cream py-20 px-6 md:px-16'>
       <div className='max-w-6xl mx-auto text-center mb-12'>
