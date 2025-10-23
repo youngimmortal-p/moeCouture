@@ -70,15 +70,15 @@ import Navbar from '../../components/Navbar/Navbar';
 const Gallery = () => {
     const [category, setCategory] = useState("All")
 
-    const shirts = [shirt1,
-      shirt2,
-      shirt3,
-      shirt4,
-      shirt5,
-      shirt6,
-      shirt7,
-      shirt8,
-      shirt9 ].map(src => ({
+    const shirts = [Shirt1,
+      Shirt2,
+      Shirt3,
+      Shirt4,
+      Shirt5,
+      Shirt6,
+      Shirt7,
+      Shirt8,
+      Shirt9 ].map(src => ({
         src,
         type: "Shirt",
      }))
